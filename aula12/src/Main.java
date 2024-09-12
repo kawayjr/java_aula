@@ -9,5 +9,12 @@ public class Main {
 
         c.locomover();
         m.locomover();
+
+        Lobo l = new Lobo();
+        l.emitirSom();
+
+        Cachorro x = new Cachorro();
+        x.reagir(true);
+        x.reagir(false);
     }
 }
